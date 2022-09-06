@@ -1,0 +1,145 @@
+body {
+    margin: 0;
+    background-color: #8dc63f;
+    font-family: "Arial";
+}
+
+.wrapper {
+    width: 80%;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 0 15px;
+    box-sizing: border-box;
+
+}
+.header{
+    display: flex;
+justify-content: space-between;    padding: 25px 0;
+    }
+.logo{
+    display: flex;
+}
+h1 {
+    color: #39930d;
+    font-size: 44px;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    margin-right: 34px;
+}
+
+h1 span:first-child {
+    font-size: 22px;
+    font-weight: normal;
+}
+
+h1 span:last-child,
+.italic i {
+    color: #5a5a5a;
+    font-weight: normal;
+    font-size: 14px;
+    font-style: italic;
+
+}
+.biggest-text{
+    margin: 12px 0;
+    line-height: 44px;
+}
+.logo img{
+    width: 102px;
+    height: 100px;
+}
+.contact{
+    text-align: right;
+
+}
+.tel italic{
+    margin: 0;
+    margin-bottom: 11px;
+}
+.tel{
+    margin: 0;
+    margin-bottom: 11px;
+}
+.tel a{
+    font-size: 22px;
+    color: #39930d;
+    text-decoration: none;
+
+}
+.tel a:hover{
+    text-decoration: underline;
+}
+.main{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+.main img{
+    width: 100%;
+    margin-bottom: 25px;
+}
+.desc{
+    width: 62%;
+}
+.desc h2{
+    font-size: 24px;
+    color: #39930d;
+    margin: 0;
+    margin-bottom: 15px;
+
+}
+.desc p{
+    font-size: 14px;
+    line-height: 21px;
+        color: #343434;
+        margin: 0;
+        margin-bottom: 15px;
+}
+.partners{
+    width: 32%;
+}
+.partners h3{
+    font-size: 18px;
+    color: #ffffff;
+    padding: 15px 20px;
+    background-color: #39930d;
+    font-weight: normal;
+    margin: 0;
+}
+.partners ul{
+    list-style: none;
+    margin: 20px 0;
+    padding: 0;
+}
+.partners li{
+    font-size: 14px;
+    line-height: 30px;
+    padding-left: 21px;
+    transition: .3s;
+
+}
+.partners li:hover{
+    background-color: #39930d;
+
+}
+.partners li:hover a{
+    color: #fff;
+}
+
+.partners a{
+    color: #39930d;
+    text-transform: uppercase;
+    transition: .3s;
+
+}
+.footer h4{
+    font-size: 14px;
+    color: #ffffff;
+    margin: 0 -15px;
+    padding: 15px;
+    background-color: #39930d;
+    font-weight: normal;
+
+}
